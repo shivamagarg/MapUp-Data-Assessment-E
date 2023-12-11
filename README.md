@@ -160,10 +160,12 @@ python3 process3.py --to_process /output/process2 --output_dir /output/process3
 
 
 ## Submission structure
-- 📂 assessment
+- 📂 your_cloned_repo
   - 📄 process1.py
   - 📄 process2.py
   - 📄 process3.py
+  - 📄 excel-assessment.xlsm
+  - .env
   - 📂 evaluation_data
     - 📂 input
         - 📄 raw_data.parquet
@@ -178,6 +180,8 @@ python3 process3.py --to_process /output/process2 --output_dir /output/process3
         - ...
       - 📂 process3
         - 📄 transformed_data.csv
+  - 📂 sample_data
+  - .requirements.txt
 
 ## MapUp - Excel Assessment
 
